@@ -110,11 +110,11 @@ export const experiences = [
     job: "3rd year UG in BTech",
     date: "2023-2027",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Current CGPA (after 4 semesters): 8.5/10",
+      "Currently in my third year, pursuing a B.Tech in Computer Science with a specialization in Data Science.",
+      "My academic journey has equipped me with a strong foundation in key areas such as Java programming, Python for ML and data visualization and RDBMS.",
+      "Beyond academics, I actively engage in co curricular activities. I've participated in multiple hackathons and coding competitions, securing first position in the UpGrad Bug Buster Challenge.",
+      "Additionally, I’m a member of the University Cricket Team, reflecting my team spirit and time management skills.",
     ],
   },
   {
@@ -122,61 +122,37 @@ export const experiences = [
     job: "Team Member",
     date: "2023-2027",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Duis deserunt quis incididunt do sit voluptate velit qui occaecat. Anim culpa esse anim cupidatat pariatur. Est in nisi consectetur aliqua ad velit mollit ut veniam ad minim Lorem. Dolore aliquip tempor aute enim voluptate tempor deserunt. Sunt exercitation Lorem irure elit labore nisi veniam nulla do commodo. Culpa mollit magna labore do amet. Elit nulla anim dolor laboris voluptate." ,
     ],
   },
 ];
-export const reviews = [
+export const achievements = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    img: "/assets/logos/trophy.png",
+    name: "Blind Coding Champion",
+    username: "Bharati Vidyapeeth",
+    body: "Won 1st place in blind coding challenge.",
+    proof: "https://example.com/certificate1"
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    img: "/assets/logos/algorand.png",
+    name: "Algorand Hack Finalist",
+    username: "BYOP + AI Track",
+    body: "Built a dApp and reached top 5 out of 200+ teams.",
+    proof: "https://example.com/devpost"
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    img: "/assets/logos/iitg.png",
+    name: "Analytics Program",
+    username: "IIT Guwahati",
+    body: "Completed 6-week analytics & ML program.",
+    proof: "https://example.com/certificate3"
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+    img: "/assets/logos/lightbulb.png",
+    name: "3rd in Ideathon",
+    username: "TechFest 2024",
+    body: "Pitched a startup using AI in healthcare.",
+    proof: "https://example.com/proof4"
+  }
 ];
