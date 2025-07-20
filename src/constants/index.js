@@ -129,30 +129,30 @@ export const experiences = [
 export const achievements = [
   {
     img: "/assets/logos/trophy.png",
-    name: "Blind Coding Champion",
-    username: "Bharati Vidyapeeth",
-    body: "Won 1st place in blind coding challenge.",
-    proof: "https://example.com/certificate1"
+    name: "Summer Analytics 2024",
+    username: "IIT Guwahati",
+    body: "Completed a 6 week Data analysis & ML program hosted by the Consulting and Analytics Club, IIT Guwahati ",
+    proof: "https://certificate.givemycertificate.com/c/d6d30ab7-f159-49ac-b8fe-4427ba540f32"
   },
   {
     img: "/assets/logos/algorand.png",
-    name: "Algorand Hack Finalist",
-    username: "BYOP + AI Track",
-    body: "Built a dApp and reached top 5 out of 200+ teams.",
-    proof: "https://example.com/devpost"
+    name: "AlgoBharat HackSeries 2025 Winner",
+    username: "We won the Honourable Mention prize under the BYOP + AI Track",
+    body: "Built an Algorand Assistant for the Developers",
+    proof: "https://x.com/Algo_Bharat/status/1935772055502569659"
   },
   {
     img: "/assets/logos/iitg.png",
-    name: "Analytics Program",
-    username: "IIT Guwahati",
-    body: "Completed 6-week analytics & ML program.",
-    proof: "https://example.com/certificate3"
+    name: "Bug Buster",
+    username: "UpGrad, MUIT Noida",
+    body: "Won First Prize in a Bug solving Competition in Java",
+    proof: "https://certificate.givemycertificate.com/c/a77006ba-4bb4-4105-bf33-f91888992319"
   },
   {
     img: "/assets/logos/lightbulb.png",
-    name: "3rd in Ideathon",
-    username: "TechFest 2024",
-    body: "Pitched a startup using AI in healthcare.",
-    proof: "https://example.com/proof4"
+    name: "Won a Grant by Zora - Coin Protocol",
+    username: "Akindo",
+    body: "Submitted my project Under the Zora - Build your dream AI powered Zora project, WaveHack",
+    proof: "https://app.akindo.io/communities/aAB8MkKN8FzGp7Wd/products/kzgdM9W7kS4J07w0"
   }
 ];
