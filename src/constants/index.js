@@ -94,7 +94,7 @@ export const mySocials = [
   },
   {
     name: "Instagram",
-    href: "https://www.reddit.com/user/trash_divine/",
+    href: "https://www.instagram.com/ig__yash__?igsh=azhhMTZpMGtxY2th",
     icon: "/assets/socials/instagram.svg",
   },
   {
@@ -128,7 +128,7 @@ export const experiences = [
 ];
 export const achievements = [
   {
-    img: "/assets/logos/trophy.png",
+    img: "/assets/logos/CA.jpg",
     name: "Summer Analytics 2024",
     username: "IIT Guwahati",
     body: "Completed a 6 week Data analysis & ML program hosted by the Consulting and Analytics Club, IIT Guwahati ",
@@ -142,14 +142,14 @@ export const achievements = [
     proof: "https://x.com/Algo_Bharat/status/1935772055502569659"
   },
   {
-    img: "/assets/logos/iitg.png",
+    img: "/assets/logos/upgrad.png",
     name: "Bug Buster",
     username: "UpGrad, MUIT Noida",
     body: "Won First Prize in a Bug solving Competition in Java",
     proof: "https://certificate.givemycertificate.com/c/a77006ba-4bb4-4105-bf33-f91888992319"
   },
   {
-    img: "/assets/logos/lightbulb.png",
+    img: "/assets/logos/zora.png",
     name: "Won a Grant by Zora - Coin Protocol",
     username: "Akindo",
     body: "Submitted my project Under the Zora - Build your dream AI powered Zora project, WaveHack",
