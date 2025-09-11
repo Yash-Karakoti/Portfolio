@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
@@ -12,6 +12,15 @@ const Contact = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [alertType, setAlertType] = useState("success");
   const [alertMessage, setAlertMessage] = useState("");
+  
+  // Initialize EmailJS once
+  useEffect(() => {
+    try {
+      emailjs.init("T8ZmYkyjHF0dzWjtJ");
+    } catch (err) {
+      console.error("EmailJS init failed:", err);
+    }
+  }, []);
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -28,26 +37,31 @@ const Contact = () => {
     setIsLoading(true);
 
     try {
-      console.log("From submitted:", formData);
-      await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+      console.log("Form submitted:", formData);
+      const result = await emailjs.send(
+        "service_nlbm61k",
+        "template_laqglrv",
         {
           from_name: formData.name,
           to_name: "Yash",
           from_email: formData.email,
           to_email: "Karakotiyash7@gmail.com",
           message: formData.message,
-        },
-        "pn-Bw_mS1_QQdofuV"
+          subject: "New Message from Portfolio",
+        }
       );
+      if (result?.status === 200) {
+        setFormData({ name: "", email: "", message: "" });
+        showAlertMessage("success", "Your message has been sent!");
+      } else {
+        throw new Error(result?.text || "Email service returned a non-200 status");
+      }
       setIsLoading(false);
-      setFormData({ name: "", email: "", message: "" });
-      showAlertMessage("Success", "You message has been sent!");
     } catch (error) {
       setIsLoading(false);
-      console.log(error);
-      showAlertMessage("Fault", "Somthing went wrong!");
+      console.error("Email send error:", error);
+      const reason = error?.text || error?.message || "Unknown error";
+      showAlertMessage("danger", `Something went wrong: ${reason}`);
     }
   };
   return (
