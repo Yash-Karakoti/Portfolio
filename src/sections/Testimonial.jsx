@@ -3,9 +3,6 @@ import { twMerge } from "tailwind-merge";
 import Marquee from "../components/Marquee";
 import { achievements } from "../constants";
 
-const firstRow = achievements.slice(0, achievements.length / 2);
-const secondRow = achievements.slice(achievements.length / 2);
-
 const ReviewCard = ({ img, name, username, body, proof }) => {
   const [showProof, setShowProof] = useState(false);
 
@@ -49,6 +46,9 @@ const ReviewCard = ({ img, name, username, body, proof }) => {
 };
 
 export default function Testimonial() {
+  const firstRow = achievements.slice(0, Math.ceil(achievements.length / 2));
+  const secondRow = achievements.slice(Math.ceil(achievements.length / 2));
+
   return (
     <div className="items-start mt-25 md:mt-35 c-space">
       <h2 className="text-heading">My Achievements</h2>
