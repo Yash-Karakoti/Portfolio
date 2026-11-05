@@ -234,7 +234,7 @@ export const experiences = [
     date: "2023-2027",
     contents: [
       "Current CGPA: 8.3/10",
-      "Currently in my third year, pursuing a B.Tech in Computer Science with a specialization in Data Science.",
+      "Currently in my final year, pursuing a B.Tech in Computer Science with a specialization in Data Science.",
       "My academic journey has equipped me with a strong foundation in key areas such as Java programming, Data structures and Algorithms, Python, SQL and counting...",
       "Beyond academics, I actively engage in co-curricular activities. I've participated in multiple hackathons and coding competitions and won some of them as well",
       "Additionally, I represented the University Cricket Team.",
@@ -424,39 +424,38 @@ export const certifications = [
 
 export const workExperience = [
   {
+    title: "SAI 100",
+    job: "Full Stack Developer Intern",
+    date: "June 2026 — August 2026",
+    contents: [
+      "Engineered a full-stack B2B product catalog platform for food packaging materials using React, TypeScript, and Vite, deploying production builds via Vercel.",
+      "Developed a dynamic customer quoting pipeline by building an EnquiryForm and QuantityModal, leveraging custom React context (QuoteContext) to streamline lead generation and reduce quotation turnaround time by 40%.",
+      "Architected the backend data layer using Node.js and Prisma ORM, designing efficient relational schemas, RESTful APIs, and managing database migrations for seamless data integrity.",
+      "Optimized Core Web Vitals, asset loading, and mobile responsiveness, achieving sub-second page loads and 95+ Google Lighthouse performance scores across devices.",
+      "Collaborated under the mentorship of Project Manager Jaiveer Singh in an Agile environment, executing Git-based version control workflows and rapid sprint deliveries.",
+    ],
+  },
+  {
     title: "Freelance / Open Source",
-    job: "Web3 Developer — Hackathon Builder",
-    date: "2024 — Present",
+    job: "Developer & Hackathon Builder",
+    date: "2023 - Present",
     contents: [
-      "Building decentralized applications across multiple blockchain ecosystems. Won grants from Algorand, Zora, SideShift AI, Nodit, and Filecoin through competitive hackathons.",
+      "Building applications across multiple ecosystems. Won grants from Algorand, Zora, SideShift AI, Nodit, and Filecoin through competitive hackathons.",
       "Won $500 at AlgoBharat HackSeries 2025 under BYOP + AI Track.",
-      "Built AlgoSplit — a decentralized payment splitting dApp on Algorand.",
-      "Created ChainRelief — a cross-chain disaster funding platform.",
-      "Won multiple grants totaling $980+ across WaveHack and Filecoin cohorts.",
+      "Contributed to multiple open source projects in different programs and submitted 30+ succesfully merged PRs",
+      "Creating technical and informational content around Web3 and Crypto trading and also Won multiple Content Creation bounties as well",
+      "Won multiple grants totaling $1800+ across WaveHacks, Hackathons and $200+ for my Open Source Contributions",
     ],
   },
   {
-    title: "Self-Directed Projects",
-    job: "Data Analytics Intern",
-    date: "2024 — Present",
+    title: "AlgoBharat",
+    job: "Co-Lead - Algorand Blockchain Club",
+    date: "Mar 2024 - Present",
     contents: [
-      "Applying data science and analytics skills to real-world datasets. Built end-to-end analytics pipelines from data preparation to visualization and reporting.",
-      "Completed IIT Guwahati's Summer Analytics program.",
-      "Built Customer Behavior Analysis project with Python, SQL & Power BI.",
-      "Created interactive dashboards for business intelligence insights.",
-      "Practiced industry-standard workflows mirroring real analyst responsibilities.",
-    ],
-  },
-  {
-    title: "University & Personal Projects",
-    job: "Full-Stack Developer",
-    date: "2023 — Present",
-    contents: [
-      "Developing full-stack web applications using modern frameworks and tools. Focus on building scalable, user-friendly platforms with clean architecture.",
-      "Built KrishiMitra — AI-powered crop advisory platform for SIH 2025.",
-      "Developed portfolio and project showcase applications with React & Three.js.",
-      "Contributed to open-source projects on GitHub.",
-      "Maintained 8.3/10 CGPA while actively building projects.",
+      "Co-lead a vibrant Web3 developer community - organizing hands-on bootcamps and learning sessions, mentoring students on smart contract development, and debugging ecosystem tooling.",
+      "Organized university workshops and competitive CTF (Capture-The-Flag) challenges, securing fully sponsored trips to Devcon 2024 in Thailand for the winning participants.",
+      "Mobilized multiple student teams for AlgoBharat HackSeries, mentoring finalists who traveled to Bengaluru for the live Algorand India Summit and took home cash prizes, exclusive swags, and ecosystem recognition.",
+      "Created technical Web3 educational content, developer tutorials, and architectural threads as an ecosystem ambassador across developer communities.",
     ],
   },
 ];
